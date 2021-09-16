@@ -1,0 +1,11 @@
+﻿C:\Users\hassan.munir\IdeaProjects\DotNet\CarportalTest\CarControllerTest.cs
+C:\Users\hassan.munir\IdeaProjects\DotNet\CarportalTest\CarServiceTest.cs
+C:\Users\hassan.munir\IdeaProjects\DotNet\CarportalTest\TestDataProvider.cs
+C:\Users\hassan.munir\.nuget\packages\microsoft.net.test.sdk\16.11.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs
+C:\Users\hassan.munir\.nuget\packages\microsoft.testplatform.testhost\16.11.0\build\netcoreapp2.1\x64\testhost.exe
+C:\Users\hassan.munir\.nuget\packages\microsoft.testplatform.testhost\16.11.0\build\netcoreapp2.1\x64\testhost.dll
+C:\Users\hassan.munir\.nuget\packages\microsoft.testplatform.testhost\16.11.0\build\netcoreapp2.1\x64\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\Users\hassan.munir\.nuget\packages\xunit.runner.visualstudio\2.4.3\build\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\hassan.munir\.nuget\packages\xunit.runner.visualstudio\2.4.3\build\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\hassan.munir\.nuget\packages\xunit.runner.visualstudio\2.4.3\build\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\hassan.munir\IdeaProjects\DotNet\CarportalTest\coverage.opencover.xml

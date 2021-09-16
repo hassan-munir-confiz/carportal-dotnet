@@ -1,0 +1,245 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "3.11.0.0",
+        "fileVersion": "3.11.0-4.21373.6 (bb3bdbbe)",
+        "semanticVersion": "3.11.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "S3433",
+          "level": "warning",
+          "message": "Make this test method non-'async' or return 'Task'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/hassan.munir/IdeaProjects/DotNet/CarportalTest/CarControllerTest.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 27,
+                  "endLine": 21,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3433",
+          "level": "warning",
+          "message": "Make this test method non-'async' or return 'Task'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/hassan.munir/IdeaProjects/DotNet/CarportalTest/CarServiceTest.cs",
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 27,
+                  "endLine": 77,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3433",
+          "level": "warning",
+          "message": "Make this test method non-'async' or return 'Task'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/hassan.munir/IdeaProjects/DotNet/CarportalTest/CarServiceTest.cs",
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 27,
+                  "endLine": 33,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3433",
+          "level": "warning",
+          "message": "Make this test method non-'async' or return 'Task'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/hassan.munir/IdeaProjects/DotNet/CarportalTest/CarControllerTest.cs",
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 27,
+                  "endLine": 48,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3433",
+          "level": "warning",
+          "message": "Make this test method non-'async' or return 'Task'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/hassan.munir/IdeaProjects/DotNet/CarportalTest/CarServiceTest.cs",
+                "region": {
+                  "startLine": 54,
+                  "startColumn": 27,
+                  "endLine": 54,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3433",
+          "level": "warning",
+          "message": "Make this test method non-'async' or return 'Task'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/hassan.munir/IdeaProjects/DotNet/CarportalTest/CarControllerTest.cs",
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 27,
+                  "endLine": 70,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3433",
+          "level": "warning",
+          "message": "Make this test method non-'async' or return 'Task'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/hassan.munir/IdeaProjects/DotNet/CarportalTest/CarControllerTest.cs",
+                "region": {
+                  "startLine": 94,
+                  "startColumn": 27,
+                  "endLine": 94,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3433",
+          "level": "warning",
+          "message": "Make this test method non-'async' or return 'Task'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/hassan.munir/IdeaProjects/DotNet/CarportalTest/CarServiceTest.cs",
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 27,
+                  "endLine": 96,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3433",
+          "level": "warning",
+          "message": "Make this test method non-'async' or return 'Task'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/hassan.munir/IdeaProjects/DotNet/CarportalTest/CarControllerTest.cs",
+                "region": {
+                  "startLine": 120,
+                  "startColumn": 27,
+                  "endLine": 120,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3433",
+          "level": "warning",
+          "message": "Make this test method non-'async' or return 'Task'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/hassan.munir/IdeaProjects/DotNet/CarportalTest/CarServiceTest.cs",
+                "region": {
+                  "startLine": 115,
+                  "startColumn": 27,
+                  "endLine": 115,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "S3433": {
+          "id": "S3433",
+          "shortDescription": "Test method signatures should be correct",
+          "fullDescription": "A method is detected as test method if marked with one of the following attributes [TestMethod] or [DataTestMethod] (for mstest), [Fact] or [Theory] (for xunit) or [Test], [TestCase], [TestCaseSource] or [Theory] (for nunit). However, whether or not they have a test attribute, non-public methods are not recognized as tests, and therefore not executed. Neither are async void methods, or methods with generics anywhere in their signatures.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3433",
+          "properties": {
+            "category": "Blocker Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "TestSourceScope"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
