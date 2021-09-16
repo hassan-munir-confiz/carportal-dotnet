@@ -111,8 +111,8 @@ namespace CarportalTest
 
             var resultObject = ((ServiceResponse<List<GetCarDto>>)(result as OkObjectResult).Value);
 
-            Assert.False(resultObject.isSuccess);
-            Assert.Null(resultObject.Data);
+            Assert.True(resultObject.isSuccess);
+            Assert.NotNull(resultObject.Data);
             Assert.Equal("Honda", resultObject.Data[0].brand);
         }
 
