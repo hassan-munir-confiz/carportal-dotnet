@@ -46,7 +46,7 @@ namespace CarportalTest
 
             var result = await carService.getCars();
 
-            Assert.Equal(result.Data.Count, cars.Count);
+            Assert.Equal(cars.Count,result.Data.Count);
 
         }
 
