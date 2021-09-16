@@ -10,7 +10,7 @@ namespace CarportalTest
 
             CreateCarDto createCarDto = new CreateCarDto()
             {
-                name = "BR-V",
+                name = "BR-V1",
                 description = "Test Desc"
             };
 
