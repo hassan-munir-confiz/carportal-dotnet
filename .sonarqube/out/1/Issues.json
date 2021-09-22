@@ -18,33 +18,12 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/hassan.munir/IdeaProjects/DotNet/CarportalTest/CarControllerTest.cs",
-                "region": {
-                  "startLine": 48,
-                  "startColumn": 27,
-                  "endLine": 48,
-                  "endColumn": 37
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S3433",
-          "level": "warning",
-          "message": "Make this test method non-'async' or return 'Task'.",
-          "locations": [
-            {
-              "resultFile": {
                 "uri": "file:///C:/Users/hassan.munir/IdeaProjects/DotNet/CarportalTest/CarServiceTest.cs",
                 "region": {
-                  "startLine": 77,
+                  "startLine": 34,
                   "startColumn": 27,
-                  "endLine": 77,
-                  "endColumn": 37
+                  "endLine": 34,
+                  "endColumn": 38
                 }
               }
             }
@@ -83,10 +62,31 @@
               "resultFile": {
                 "uri": "file:///C:/Users/hassan.munir/IdeaProjects/DotNet/CarportalTest/CarServiceTest.cs",
                 "region": {
-                  "startLine": 54,
+                  "startLine": 50,
                   "startColumn": 27,
-                  "endLine": 54,
+                  "endLine": 50,
                   "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'InitializeDbForTests' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/hassan.munir/IdeaProjects/DotNet/CarportalTest/IntegrationBase.cs",
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 28,
+                  "endLine": 60,
+                  "endColumn": 48
                 }
               }
             }
@@ -102,12 +102,12 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/hassan.munir/IdeaProjects/DotNet/CarportalTest/CarServiceTest.cs",
+                "uri": "file:///C:/Users/hassan.munir/IdeaProjects/DotNet/CarportalTest/CarControllerTest.cs",
                 "region": {
-                  "startLine": 33,
+                  "startLine": 48,
                   "startColumn": 27,
-                  "endLine": 33,
-                  "endColumn": 38
+                  "endLine": 48,
+                  "endColumn": 37
                 }
               }
             }
@@ -146,31 +146,10 @@
               "resultFile": {
                 "uri": "file:///C:/Users/hassan.munir/IdeaProjects/DotNet/CarportalTest/CarServiceTest.cs",
                 "region": {
-                  "startLine": 96,
+                  "startLine": 69,
                   "startColumn": 27,
-                  "endLine": 96,
-                  "endColumn": 40
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S3433",
-          "level": "warning",
-          "message": "Make this test method non-'async' or return 'Task'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/hassan.munir/IdeaProjects/DotNet/CarportalTest/CarControllerTest.cs",
-                "region": {
-                  "startLine": 120,
-                  "startColumn": 27,
-                  "endLine": 120,
-                  "endColumn": 50
+                  "endLine": 69,
+                  "endColumn": 37
                 }
               }
             }
@@ -207,11 +186,53 @@
           "locations": [
             {
               "resultFile": {
+                "uri": "file:///C:/Users/hassan.munir/IdeaProjects/DotNet/CarportalTest/CarControllerTest.cs",
+                "region": {
+                  "startLine": 120,
+                  "startColumn": 27,
+                  "endLine": 120,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3433",
+          "level": "warning",
+          "message": "Make this test method non-'async' or return 'Task'.",
+          "locations": [
+            {
+              "resultFile": {
                 "uri": "file:///C:/Users/hassan.munir/IdeaProjects/DotNet/CarportalTest/CarServiceTest.cs",
                 "region": {
-                  "startLine": 115,
+                  "startLine": 87,
                   "startColumn": 27,
-                  "endLine": 115,
+                  "endLine": 87,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3433",
+          "level": "warning",
+          "message": "Make this test method non-'async' or return 'Task'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/hassan.munir/IdeaProjects/DotNet/CarportalTest/CarServiceTest.cs",
+                "region": {
+                  "startLine": 106,
+                  "startColumn": 27,
+                  "endLine": 106,
                   "endColumn": 37
                 }
               }
@@ -223,6 +244,22 @@
         }
       ],
       "rules": {
+        "CA1822": {
+          "id": "CA1822",
+          "shortDescription": "Mark members as static",
+          "fullDescription": "Members that do not access instance data or call instance methods can be marked as static. After you mark the methods as static, the compiler will emit nonvirtual call sites to these members. This can give you a measurable performance gain for performance-sensitive code.",
+          "defaultLevel": "note",
+          "helpUri": "https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1822",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "PortedFromFxCop",
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
         "S3433": {
           "id": "S3433",
           "shortDescription": "Test method signatures should be correct",

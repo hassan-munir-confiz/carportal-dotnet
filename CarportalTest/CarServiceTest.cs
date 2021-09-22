@@ -33,12 +33,7 @@ namespace CarportalTest
         [Fact]
         public async void getCarsTest()
         {
-            List<Car> cars = new List<Car>()
-            {
-                new Car{ id=1, name="BR-V", description="Hello" , price=12,rating=2,imageUrl="url",brand="Honda"},
-                new Car{ id=2, name="Mehran", description="Hello" , price=12,rating=2,imageUrl="url",brand="Suzuki"},
-                new Car{ id=3, name="Civic", description="Hello" , price=12,rating=2,imageUrl="url",brand="Honda"}
-            };
+            List<Car> cars = TestDataProvider.getCars();
 
             mock.Setup(c => c.getCars()).ReturnsAsync(cars);
 
@@ -54,12 +49,7 @@ namespace CarportalTest
         [Fact]
         public async void getCarsByBrandTest() {
 
-            List<Car> cars = new List<Car>()
-            {
-                new Car{ id=1, name="BR-V", description="Hello" , price=12,rating=2,imageUrl="url",brand="Honda"},
-                new Car{ id=3, name="Civic", description="Hello" , price=12,rating=2,imageUrl="url",brand="Honda"},
-                new Car{ id=3, name="Civic", description="Hello" , price=12,rating=2,imageUrl="url",brand="Suzuki"}
-            };
+            List<Car> cars = TestDataProvider.getCars();
 
             mock.Setup(c => c.getCarsByBrand(It.IsAny<String>())).ReturnsAsync(cars);
 
@@ -78,8 +68,7 @@ namespace CarportalTest
         [Fact]
         public async void getCarTest() {
 
-
-            Car car = new Car { id = 1, name = "BR-V", description = "Hello", price = 12, rating = 2, imageUrl = "url", brand = "Honda" };
+            Car car = TestDataProvider.GetCar();
 
             mock.Setup(c => c.getCar(1)).ReturnsAsync(car);
 
@@ -95,11 +84,11 @@ namespace CarportalTest
 
 
         [Fact]
-        public async void updateCarTest() { 
-        
-            Car car = new Car { id = 1, name = "BR-V", description = "Hello", price = 12, rating = 2, imageUrl = "url", brand = "Honda" }; 
+        public async void updateCarTest() {
 
-            UpdateCarDto updateCarDto = TestDataProvider.GetUpdateCarDto();
+            Car car = TestDataProvider.GetCar();
+
+            UpdateCarDto updateCarDto = TestDataProvider.getUpdateCarDto();
 
             mock.Setup(c => c.getCar(car.id)).ReturnsAsync(car);
 
@@ -117,14 +106,9 @@ namespace CarportalTest
         public async void addCarTest()
         {
 
-            Car updateCar = new Car { id = 1, name = "BR-V", description = "Hello", price = 12, rating = 2, imageUrl = "url", brand = "Honda" };
+            Car updateCar = TestDataProvider.GetCar();
 
-            List<Car> cars = new List<Car>()
-            {
-                new Car{ id=1, name="BR-V", description="Hello" , price=12,rating=2,imageUrl="url",brand="Honda"},
-                new Car{ id=2, name="Mehran", description="Hello" , price=12,rating=2,imageUrl="url",brand="Suzuki"},
-                new Car{ id=3, name="Civic", description="Hello" , price=12,rating=2,imageUrl="url",brand="Honda"}
-            };
+            List<Car> cars = TestDataProvider.getCars();
 
             CreateCarDto createCarDto = TestDataProvider.getCreateCarDto();
 

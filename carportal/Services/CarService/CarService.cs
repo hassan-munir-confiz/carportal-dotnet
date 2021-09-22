@@ -94,7 +94,7 @@ namespace carportal.Services.CarService
 
             Car updatedCar = await _carRepo.getCar(updateCar.id);
 
-            if (updateCar != null)
+            if (updatedCar != null)
             {
                 try
                 {

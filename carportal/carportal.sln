@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "carportal", "carportal.csproj", "{F271EB16-36DD-4B35-B1B8-0295207822FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarportalTest", "..\CarportalTest\CarportalTest.csproj", "{197181E5-DF3B-41EF-9A51-68F2F77C5BD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarportalTest", "..\CarportalTest\CarportalTest.csproj", "{197181E5-DF3B-41EF-9A51-68F2F77C5BD1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8C8044F2-7049-4620-80A0-7E4061511FEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
