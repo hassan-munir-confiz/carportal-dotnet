@@ -28,4 +28,6 @@ phases:
       
 artifacts:
   files:
-    - ./**/*
+    - '**/*'
+  base-directory: ./bin/Release/net5.0/linux-x64/publish/
+  discard-paths: no
