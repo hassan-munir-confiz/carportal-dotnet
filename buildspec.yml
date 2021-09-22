@@ -25,9 +25,11 @@ phases:
       - echo Publish started on `date`
       # https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/dotnet-linux-platform-bundle-app.html
       - dotnet publish -c Release -r linux-x64 --self-contained false carportal/carportal.csproj
+      - echo pwd
+      - ls	
       
 artifacts:
   files:
     - '**/*'
-  base-directory: ./bin/Release/net5.0/linux-x64/publish/
+  base-directory: carportal/bin/Release/net5.0/linux-x64/publish/
   discard-paths: no
