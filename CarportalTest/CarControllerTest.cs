@@ -1,13 +1,10 @@
-﻿using AutoMapper;
-using carportal;
-using carportal.Controllers;
+﻿using carportal.Controllers;
 using carportal.Models;
 using carportal.Models.Dtos;
-using carportal.Services.CarService;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
-using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using Xunit;
 
 namespace CarportalTest
@@ -18,7 +15,7 @@ namespace CarportalTest
         private Mock<ICarService> mock = new Mock<ICarService>();
 
         [Fact]
-        public async void getCarsControllerTest() {
+        public async Task getCarsControllerTest() {
 
             List<GetCarDto> getCarDtos = new List<GetCarDto>();
             getCarDtos.Add(TestDataProvider.getCarDto());
@@ -45,7 +42,7 @@ namespace CarportalTest
         }
 
         [Fact]
-        public async void getCarTest() {
+        public async Task getCarTest() {
 
             GetCarDto getCarDto = TestDataProvider.getCarDto();
             ServiceResponse<GetCarDto> serviceResponse = new ServiceResponse<GetCarDto>();
@@ -67,7 +64,7 @@ namespace CarportalTest
         }
 
         [Fact]
-        public async void getCarNoCarTest()
+        public async Task getCarNoCarTest()
         {
 
             
@@ -91,7 +88,7 @@ namespace CarportalTest
         }
 
         [Fact]
-        public async void getCarsByBrandTest()
+        public async Task getCarsByBrandTest()
         {
             List<GetCarDto> getCarDtos = new List<GetCarDto>();
             getCarDtos.Add(TestDataProvider.getCarDto());
@@ -117,7 +114,7 @@ namespace CarportalTest
         }
 
         [Fact]
-        public async void getCarsByBrandNoCarTest()
+        public async Task getCarsByBrandNoCarTest()
         {
             
             ServiceResponse<List<GetCarDto>> serviceResponse = new ServiceResponse<List<GetCarDto>>();

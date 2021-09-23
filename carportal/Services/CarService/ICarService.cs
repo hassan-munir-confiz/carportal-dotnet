@@ -17,6 +17,8 @@ namespace carportal.Models
         Task<ServiceResponse<GetCarDto>> updateCar(UpdateCarDto updateCar);
 
         Task<ServiceResponse<List<GetCarDto>>> deleteCar(int id);
+
+        ServiceResponse<string> getStatus();
         
     }
 }

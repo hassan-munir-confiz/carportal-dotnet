@@ -1,7 +1,6 @@
 ﻿using carportal;
 using Microsoft.AspNetCore.Mvc.Testing;
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
@@ -57,7 +56,7 @@ namespace CarportalTest
 
         }
 
-        private async Task InitializeDbForTests(DataContext dataContext)
+        private static async Task InitializeDbForTests(DataContext dataContext)
         {
             dataContext.AddRange(TestDataProvider.getCars());
             await dataContext.SaveChangesAsync();

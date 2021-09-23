@@ -11,12 +11,12 @@ namespace carportal.Services.CarService
 {
     public class CarService : ICarService
     {
-      
+
 
         private readonly IMapper _mapper;
 
         private readonly ICarRepo _carRepo;
-        public CarService(IMapper mapper  , ICarRepo carRepo)
+        public CarService(IMapper mapper, ICarRepo carRepo)
         {
             _mapper = mapper;
             _carRepo = carRepo;
@@ -158,6 +158,13 @@ namespace carportal.Services.CarService
                 serviceResponse.message = "No Such Car Exist";
                 return serviceResponse;
             }
+        }
+
+        public ServiceResponse<string> getStatus(){
+
+            ServiceResponse<string> serviceResponse = new ServiceResponse<string>();
+            serviceResponse.message = "Up and running";
+            return serviceResponse;
         }
 
 

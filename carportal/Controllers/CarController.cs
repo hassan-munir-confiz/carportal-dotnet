@@ -18,6 +18,12 @@ namespace carportal.Controllers
 
         }
 
+        [HttpGet("getStatus")]
+        public  IActionResult getStatus() {
+
+            return Ok(_carService.getStatus());
+        }
+
         [HttpGet("getCars")]
         public async Task<IActionResult> getCars()
         {
