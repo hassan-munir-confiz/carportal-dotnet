@@ -9,6 +9,7 @@ using System;
 using System.Collections.Generic;
 using Xunit;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace CarportalTest
 {
@@ -31,7 +32,7 @@ namespace CarportalTest
         }
 
         [Fact]
-        public async void getCarsTest()
+        public async Task getCarsTest()
         {
             List<Car> cars = TestDataProvider.getCars();
 
@@ -47,7 +48,7 @@ namespace CarportalTest
 
 
         [Fact]
-        public async void getCarsByBrandTest() {
+        public async Task getCarsByBrandTest() {
 
             List<Car> cars = TestDataProvider.getCars();
 
@@ -66,7 +67,7 @@ namespace CarportalTest
 
 
         [Fact]
-        public async void getCarTest() {
+        public async Task getCarTest() {
 
             Car car = TestDataProvider.GetCar();
 
@@ -84,7 +85,7 @@ namespace CarportalTest
 
 
         [Fact]
-        public async void updateCarTest() {
+        public async Task updateCarTest() {
 
             Car car = TestDataProvider.GetCar();
 
@@ -103,7 +104,7 @@ namespace CarportalTest
 
 
         [Fact]
-        public async void addCarTest()
+        public async Task addCarTest()
         {
 
             Car updateCar = TestDataProvider.GetCar();
